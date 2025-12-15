@@ -18,7 +18,7 @@ import asyncio
 import aiohttp
 warnings.filterwarnings('ignore')
 
-class DarkWxlf:
+class vile:
     def __init__(self):
         self.target = None
         self.subdomains = set()
