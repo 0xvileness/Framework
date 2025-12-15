@@ -18,7 +18,7 @@ import asyncio
 import aiohttp
 warnings.filterwarnings('ignore')
 
-class vile framework:
+class vile:
     def __init__(self):
         self.target = None
         self.subdomains = set()
@@ -48,7 +48,7 @@ class vile framework:
     def show_banner(self):
         os.system('clear')
         banner = Figlet(font='Elite')
-        print(colored(banner.renderText('Vile'), 'red', attrs=['bold']))
+        print(colored(banner.renderText('Vile Framework'), 'red', attrs=['bold']))
         print(colored("╔═══════════════════════════════════════════════════════════════════════╗", 'red'))
         print(colored("║     Bug Bounty Automation Framework - By 0xvileness                   ║", 'red'))
         print(colored("║     Passive OSINT - Active Recon - Systematic Testing - Exploitation  ║", 'red'))
