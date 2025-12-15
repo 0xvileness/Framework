@@ -50,8 +50,8 @@ class DarkWxlf:
         banner = Figlet(font='future')
         print(colored(banner.renderText('Vile'), 'red', attrs=['bold']))
         print(colored("╔═══════════════════════════════════════════════════════════════════════╗", 'red'))
-        print(colored("║     Advanced Bug Bounty Automation Framework - By 0xvileness          ║", 'red'))
-        print(colored("║     Passive OSINT → Active Recon → Systematic Testing → Exploitation ║", 'red'))
+        print(colored("║     Bug Bounty Automation Framework - By 0xvileness                   ║", 'red'))
+        print(colored("║     Passive OSINT - Active Recon - Systematic Testing - Exploitation  ║", 'red'))
         print(colored("╚═══════════════════════════════════════════════════════════════════════╝", 'red'))
         print()
         
