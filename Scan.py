@@ -47,7 +47,7 @@ class vile:
         
     def show_banner(self):
         os.system('clear')
-        banner = Figlet(font='mono9')
+        banner = Figlet(font='future')
         print(colored(banner.renderText('Vile Framework'), 'red', attrs=['bold']))
         print(colored("╔═══════════════════════════════════════════════════════════════════════╗", 'red'))
         print(colored("║     Bug Bounty Automation Framework - By 0xvileness                   ║", 'red'))
