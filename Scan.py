@@ -2967,8 +2967,8 @@ https://github.com/projectdiscovery/nuclei-templates
         """Generate JSON report for tool integration"""
         report = {
             'scan_info': {
-                'tool': 'Dark Wxlf',
-                'author': 'GhxstSh3ll',
+                'tool': 'Framework',
+                'author': '0xvileness',
                 'target': self.target,
                 'timestamp': datetime.now().isoformat(),
                 'waf_detected': self.waf_detected
@@ -3021,7 +3021,7 @@ https://github.com/projectdiscovery/nuclei-templates
         html = f"""<!DOCTYPE html>
 <html>
 <head>
-    <title>Dark Wxlf Report - {self.target}</title>
+    <title>0xvileness Report - {self.target}</title>
     <meta charset="utf-8">
     <style>
         body {{
@@ -3104,10 +3104,10 @@ https://github.com/projectdiscovery/nuclei-templates
 <body>
     <div class="container">
         <div class="header">
-            <h1>🐺 DARK WXLF - BUG BOUNTY REPORT</h1>
+            <h1>🐺 Framework - BUG BOUNTY REPORT</h1>
             <p><strong>Target:</strong> {self.target}</p>
             <p><strong>Date:</strong> {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</p>
-            <p><strong>By:</strong> GhxstSh3ll</p>
+            <p><strong>By:</strong> 0xvileness</p>
 """
         
         if self.waf_detected:
